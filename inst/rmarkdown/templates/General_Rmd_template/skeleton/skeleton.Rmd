@@ -6,7 +6,6 @@ output:
   html_document:
     df_print: paged
   pdf_document: default
-header-includes:
 ---
 
 ```{r libraries, results='hide', message=FALSE, warning=FALSE}

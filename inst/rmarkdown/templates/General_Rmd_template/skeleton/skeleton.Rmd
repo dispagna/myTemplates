@@ -1,0 +1,35 @@
+---
+title: TBD
+author: "Melissa Wong"
+date: \today
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+header-includes:
+---
+
+```{r libraries, results='hide', message=FALSE, warning=FALSE}
+
+library(tidyverse)
+library(RColorBrewer)
+
+```
+
+```{r options}
+options("scipen" = 1, "digits" = 4)
+
+#knitr::opts_chunk$set(echo = FALSE)
+#knitr::opts_chunk$set(message = FALSE)
+#knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(out.width = "50%")
+knitr::opts_chunk$set(fig.align = "center")
+
+# Set Default ggplot palette
+options(ggplot2.discrete.color=brewer.pal(8, "Dark2"))
+options(ggplot2.discrete.fill=brewer.pal(8, "Dark2"))
+```
+
+
+
+
